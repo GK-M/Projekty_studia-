@@ -4,5 +4,6 @@
 - Pneumatic circuit design (including redundancy concept)
 - Selection of key components (actuators, valves, fittings, sensors)
 - Safety and reliability considerations
-- Documentation 
+- Documentation
+![Photo](3d.jpg)
 
