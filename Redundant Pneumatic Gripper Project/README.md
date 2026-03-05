@@ -6,5 +6,5 @@
 - Safety and reliability considerations
 - Documentation
 
-![3D model preview](./3d.jpg)
+![3D model preview](./3d.png)
 
