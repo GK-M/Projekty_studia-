@@ -14,3 +14,4 @@ Demonstrate how robot programming can combine **data processing** with **robot m
 ## Tech / Environment
 - Mitsubishi industrial robot
 - Mitsubishi robot programming environment (as used in the lab/course)
+<img width="669" height="495" alt="photo" src="https://github.com/user-attachments/assets/bbabd6a2-c3fa-48c9-ae6c-f14092057184" />
