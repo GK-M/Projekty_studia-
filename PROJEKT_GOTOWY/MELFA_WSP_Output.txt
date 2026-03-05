@@ -1,0 +1,26 @@
+2025:01:03 18:09:22	:Syntax check Error
+	:Program	:TEST(Command:2)	:test	:Robot	:20 S=2           'SIZE	:Syntax error
+	:Program	:TEST(Command:56)	:test	:Robot	:570 P1.X=P1.X+20*S	:Syntax error
+	:Program	:TEST(Command:58)	:test	:Robot	:580 P1.Y=P1.Y+10*S	:Syntax error
+	:Program	:TEST(Command:60)	:test	:Robot	:590 P1.X=P1.X-20*S	:Syntax error
+	:Program	:TEST(Command:62)	:test	:Robot	:600 P1.Y=P1.Y-10*S	:Syntax error
+2025:01:03 19:08:28	:Line# overlapped Error
+	:Program	:TEST(Command:104)	:test	:Robot	:P1.Y=P1.Y+10*F	:There is not line#.
+	:Program	:TEST(Command:105)	:test	:Robot	: MVS P1	:There is not line#.
+	:Program	:TEST(Command:106)	:test	:Robot	:P1.Y=P1.Y-10*F	:There is not line#.
+	:Program	:TEST(Command:107)	:test	:Robot	: MVS P1	:There is not line#.
+	:Program	:TEST(Command:108)	:test	:Robot	:P1.X=P1.X-20*F	:There is not line#.
+	:Program	:TEST(Command:109)	:test	:Robot	: MVS P1,-20	:There is not line#.
+2025:01:03 19:08:29	:Syntax check Error
+	:Program	:TEST(Command:104)	:test	:Robot	:0 P1.Y=P1.Y+10*F	:Line No exceeds 32767
+	:Program	:TEST(Command:105)	:test	:Robot	:0 MVS P1	:Line No exceeds 32767
+	:Program	:TEST(Command:106)	:test	:Robot	:0 P1.Y=P1.Y-10*F	:Line No exceeds 32767
+	:Program	:TEST(Command:107)	:test	:Robot	:0 MVS P1	:Line No exceeds 32767
+	:Program	:TEST(Command:108)	:test	:Robot	:0 P1.X=P1.X-20*F	:Line No exceeds 32767
+	:Program	:TEST(Command:109)	:test	:Robot	:0 MVS P1,-20	:Line No exceeds 32767
+2025:01:03 19:21:49	:Line# overlapped Error
+	:Program	:TEST(Command:144)	:test	:Robot	:875 GOTO 1220	:The line# is overlapped.
+2025:01:03 19:26:09	:Line# overlapped Error
+	:Program	:TEST(Command:156)	:test	:Robot	:930 MVS P1	:The line# is overlapped.
+	:Program	:TEST(Command:157)	:test	:Robot	:930 P1.Y=P1.Y+10*F	:The line# is overlapped.
+	:Program	:TEST(Command:158)	:test	:Robot	:930 MVS P1	:The line# is overlapped.
